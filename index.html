@@ -1,0 +1,21 @@
+<html 
+<head>
+
+<title>contador web</title>
+
+	</head>
+	<body> 
+
+<?php
+$a = file ("contador.data");
+$b = $a[0];
+$b = $b + 1;
+
+$conteo = fopen ("contador.data", "w");
+fwrite($conteo, $b);
+fclose($conteo);
+echo "<p>visitas $b</p>";
+?>
+
+	</body>
+	</html>
