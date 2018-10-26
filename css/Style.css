@@ -1,0 +1,279 @@
+style type="text/css">
+
+* {
+	padding:0px;
+	margin:0px;
+	-webkit-box-sizing:borde-box;
+	-moz-box-sizing:borde-box;
+	box-sizing:borde-box;
+}	
+
+header {
+	margin:-top-50px;
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+	position: relative;
+}
+
+.text_column {
+	padding-left: 25px;
+	width: 85%;
+	text-align: justify;
+}
+
+.logo{
+	width: 100%;
+	margin-left: 455px;
+	position: auto;
+}
+
+.seg_inf{
+	width: 300px;
+	height: 200px;
+	margin-left: 455px;
+	margin-top: 10px;
+	background-color: #A0A0A0;
+}
+
+.imp_red{
+	width: 300px;
+	height: 200px;
+	margin-left: 800px;
+	margin-top: -218px;
+	background-color: #A0A0A0;	
+}
+
+.img_seg{
+	width: 300px;
+	height: 200px;
+	margin-left: 1150px;
+	margin-top: -200px;
+	
+}
+
+.disponi{
+	width: 300px;
+	height: 200px;
+	margin-left: 455px;
+	background-color: #A0A0A0;
+}
+
+.confi{
+	width: 300px;
+	height: 200px;
+	margin-left: 800px;
+	margin-top: -218px;
+	background-color: #A0A0A0;
+}
+
+.integri{
+	width: 300px;
+	height: 200px;
+	margin-left: 1150px;
+	margin-top: -218px;	
+	background-color: #A0A0A0;
+}
+
+.autenti{
+	width: 300px;
+	height: 200px;
+	margin-left: 455px;
+	background-color: #A0A0A0;
+}
+
+.video{
+	width: 300px;
+	height: 200px;
+	margin-left: 800px;
+	margin-top: -200px;	
+}
+
+.importante{
+	width: 300px;
+	height: 200px;
+	margin-left: 1150px;
+	margin-top: -215px;	
+}
+
+h1{
+	position: auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	width: 95%;
+}
+
+h2{
+	position: auto;
+	font-size: 15px;
+	font-weight: bold;
+	color: #50B748;
+}
+
+h3{
+	position: auto;
+	font-size: 15px;
+	font-weight: bold;
+	color: #F0B429;
+}
+
+h4{
+	position: auto;
+	font-size: 15px;
+	font-weight: bold;
+	color: #A54686;
+}
+
+h5{
+	position: auto;
+	font-size: 15px;
+	font-weight: bold;
+	color: #808080;
+}
+
+
+nav {
+	top:-35px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 20px auto;
+	max-width: 1000px;
+	width: 100%;
+}
+
+nav ul{
+	list-style:block;
+}
+
+/*BARRA DE MENU PRINCIPAL*/
+/*CABECERA*/
+nav > ul{
+	display: table;
+	width: 100%;
+	background:  #808080;
+	position: auto;
+	
+}
+
+nav > ul li{
+	display: table-cell;
+}
+/*////////Sub-Menu////////*/
+nav > ul > li:hover > ul{
+	display: block;
+	height: 100%;
+}
+
+nav >ul > li > ul{
+	display: block;
+	position: absolute;
+	background: #50B748;
+	overflow: hidden;
+	height: 0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a{
+color: #FFF;
+display: block;
+line-height: 20px;
+padding: 20px;
+position: relative;
+text-align: center;
+/*text-decoration: none;*/
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+nav > ul li a{
+color: #fff;
+display: block;
+line-height: 20px;
+padding: 20px;
+position: relative;
+text-align: center;
+text-decoration: none;
+-webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+nav > ul > li > ul > li a:hover{
+	background: #5da5a2;
+}
+
+nav > ul > li a span{
+	background: #174459;
+	display: block;
+	height: 100%;
+	width:100%;
+	left: 0;
+	position: absolute;
+	top: -55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+nav > ul > li a span .icon {
+display: block;
+line-height: 60px;
+}
+
+nav > ul > li > a:hover > span {
+	top: 0;
+}
+/*color*/
+nav ul li a .primero{
+	background:#F47920;
+}
+
+/*nav ul li ul li span .primeros{
+	background:#f75b12;
+}*/
+
+nav ul li a .segundo{
+	background:#50B748;
+}
+nav ul li a .tercero{
+	background:#F0B429;
+}
+nav ul li a .cuarto{
+	background:#A54686;
+}
+nav ul li a .quinto{
+	background:#43C7F4;
+}
+
+
+
+/*///////Boton Redes Sociales/////////*/
+.social {
+position: absolute;
+top: 110px;
+
+}
+
+/*.social ul li a {
+display: inline-block;
+padding: 10px 15px;
+text-decoration: none;
+-webkit-transition:all 500ms;
+-o-transition:all 500ms;
+transition:all 500ms;
+}*/
+
+
+</style>
